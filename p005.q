@@ -14,4 +14,4 @@ show result:(lcm/) ourRange
 
 
 
-//Terminal Output: 232792560
+// Terminal Output: 232792560
