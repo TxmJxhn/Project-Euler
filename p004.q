@@ -1,4 +1,4 @@
-//Project Euler Problem 4: Find the largest palindrome made from the product of two 3-digit numbers
+// Project Euler Problem 4: Find the largest palindrome made from the product of two 3-digit numbers
 
 threeDigits:100_ til 1000
 palindromeCheck:{[x] (string x) ~ reverse string x}
@@ -11,4 +11,4 @@ isPalindrome:validProducts where palindromeCheck each validProducts
 
 show largestPalindrome: max isPalindrome
 
-//Terminal Output: 906609
+// Terminal Output: 906609
