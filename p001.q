@@ -3,7 +3,7 @@
 range:til 1000;
 isDivisible:{any 0 = x mod 3 5};
 
-/Create a table with divisibility flags
+//Create a table with divisibility flags
 t:([]num: range; isDivBy3or5: isDivisible each range)
 
 //Extract and sum the multiples
@@ -16,4 +16,4 @@ show answer;
 conciseAnswer: sum distinct raze {x * 1 + til floor 999 % x} each 3 5;
 show conciseAnswer;
 
-/Terminal Output: 233168
+//Terminal Output: 233168
