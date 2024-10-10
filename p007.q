@@ -6,4 +6,4 @@ nthPrime:{[n] p:enlist 2; i:3; while[count[p]<n; if[all i mod/:p where p<=sqrt i
 
 show nthPrime[10001]
 
-//Terminal Output: 104743
+// Terminal Output: 104743
