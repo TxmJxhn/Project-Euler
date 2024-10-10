@@ -1,6 +1,6 @@
 //Project Euler Problem 3: What is the largest prime factor of 600851475143
 
-/Define a function to find the prime factors of a given input number 
+//Define a function to find the prime factors of a given input number 
 
 primeFactors:{[x]
         factors:();
@@ -19,4 +19,4 @@ maxPrimeFactor:max primeFactors[600851475143]
 show maxPrimeFactor
 
 
-//Terminal Output: 6857
+// Terminal Output: 6857
