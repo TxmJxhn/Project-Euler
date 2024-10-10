@@ -14,4 +14,4 @@ maxProduct: max prd each windows[digits;adjacent]
 
 show maxProduct
 
-//Terminal Output: 23514624000
+// Terminal Output: 23514624000
