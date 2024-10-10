@@ -5,3 +5,5 @@ pythagoreanTheorem:({ {c:1000-(x+y);if[all c>x,y;
                     show "The product of the Pythagorean triplet is: ", string c*y*x]]}
                     [x;]each x+til (1000 -x) } each 1+til 1000 )[0;0]
 
+
+// Terminal Output: "The product of the Pythagorean triplet is: 31875000"
