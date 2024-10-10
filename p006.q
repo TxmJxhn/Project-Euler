@@ -14,4 +14,4 @@ answer: (prd[n,n+1]%4) - (n*(n+1)*(2*n+1))%6
 
 answer: (sum[1+til 100] xexp 2) - sum (1+til 100) xexp 2
 
-//Terminal Output: 25164150
+// Terminal Output: 25164150
