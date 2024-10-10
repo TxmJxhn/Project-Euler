@@ -20,4 +20,4 @@ show answer
 conciseAnswer:sum {x,sum -2#x}/[{last[x]<4000000};1 2] where 0=({x,sum -2#x}/[{last[x]<4000000};1 2]) mod 2
 show conciseAnswer
 
-//Terminal Output: 4613732
+// Terminal Output: 4613732
